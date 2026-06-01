@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alsaeedquran.com/sitemap.xml
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://alsaeedquraninstitute.vercel.app/sitemap.xml
