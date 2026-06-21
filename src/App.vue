@@ -1,9 +1,11 @@
 <script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 import Navbar from "./components/Navbar.vue"
 import WhatsAppButton from "./components/WhatsAppButton.vue"
 </script>
 
 <template>
+  <SpeedInsights />
   <div style="min-height: 100vh; display: flex; flex-direction: column;">
     <Navbar />
     <main style="flex: 1;">
