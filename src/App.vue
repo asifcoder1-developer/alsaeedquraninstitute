@@ -1,10 +1,12 @@
 <script setup>
+import { Analytics } from '@vercel/analytics/vue'
 import Navbar from "./components/Navbar.vue"
 import WhatsAppButton from "./components/WhatsAppButton.vue"
 </script>
 
 <template>
   <div style="min-height: 100vh; display: flex; flex-direction: column;">
+    <Analytics />
     <Navbar />
     <main style="flex: 1;">
       <router-view />

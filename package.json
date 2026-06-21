@@ -15,6 +15,7 @@
     "format": "oxfmt src/"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "pinia": "^3.0.4",
     "vue": "beta",
     "vue-router": "^5.0.4"
